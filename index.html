@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blackjack Spiel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="mainMenu">
+    <h1>Blackjack</h1>
+    <input id="playerNameInput" placeholder="Spielername" />
+    <button onclick="addPlayer()">Hinzufügen</button>
+    <div id="playerList"></div>
+    <button onclick="startGame()">Spiel starten</button>
+  </div>
+
+  <div id="gameArea" class="hidden">
+    <h2>Dealer: <span id="dealerName"></span></h2>
+    <div id="dealerHand" class="hand"></div>
+    <div id="dealerTotal"></div>
+    <div id="playersArea"></div>
+    <div id="messageArea"></div>
+    <div id="winnerArea" class="winner"></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
