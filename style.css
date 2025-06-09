@@ -1,0 +1,57 @@
+body {
+  background: #222;
+  color: #fff;
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 6px 12px;
+  margin: 5px;
+  background: #444;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #666;
+}
+
+.hand {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.card {
+  border: 1px solid #fff;
+  padding: 10px;
+  background: #333;
+  font-size: 20px;
+  width: 40px;
+  text-align: center;
+}
+
+.playerBox {
+  border: 1px solid #999;
+  padding: 10px;
+  margin: 10px 0;
+  background: #2a2a2a;
+}
+
+.winner {
+  margin-top: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #0f0;
+}
